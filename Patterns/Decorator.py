@@ -17,6 +17,10 @@ def my_func(*arg, **kwargs):
     print(*arg, **kwargs)
 
 
+def my_second_func(*arg, **kwargs):
+    pass
+
+
 if __name__ == '__main__':
     my_func("jam")
     my_func("egg")
